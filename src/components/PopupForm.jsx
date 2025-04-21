@@ -1,14 +1,15 @@
 import { X } from 'lucide-react';
 import popupimage from '../assets/popupimage.png';
+
 const PopupForm = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 bg-black/60 bg-opacity-40 flex justify-center items-center z-50">
-      <div className="bg-white rounded-lg shadow-lg max-w-5xl w-full p-6 relative">
+    <div className="fixed inset-0 bg-black/60 bg-opacity-40 flex justify-center items-center z-50 px-4">
+      <div className="bg-white relative rounded-lg shadow-lg w-full max-w-5xl p-8 sm:p-6 relative overflow-y-auto max-h-[90vh]">
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 text-gray-500 hover:text-red-500"
+          className="absolute md:top-4 md:right-4 top-2 right-2 text-gray-500 hover:text-red-500"
         >
           <X size={24} />
         </button>
@@ -17,12 +18,16 @@ const PopupForm = ({ isOpen, onClose }) => {
           <img
             src={popupimage}
             alt="Study Abroad"
-            className=" hidden md:block w-1/2 h-auto rounded-lg shadow-lg"
+            className="hidden md:block w-1/2 h-auto rounded-lg shadow-lg"
           />
 
-          <div className="flex-1">
-            <h2 className="text-2xl font-semibold mb-2">Discover Your Study Abroad Eligibility</h2>
-            <p className="text-sm text-gray-600 mb-4">Verify Your Number for a Free Session with Experts!</p>
+          <div className="flex-1 w-full">
+            <h2 className="text-base sm:text-2xl font-semibold mb-2 text-center md:text-left flex flex-wrap items-center gap-2">
+              Discover Your Study Abroad Eligibility
+            </h2>
+            <p className="md:text-sm text-xs text-gray-600 mb-4 text-center md:text-center text-wrap">
+              Verify Your Number for a Free Session with Experts!
+            </p>
 
             <form className="space-y-3 flex flex-col">
               <input
@@ -38,7 +43,7 @@ const PopupForm = ({ isOpen, onClose }) => {
                 required
               />
               <div className="flex">
-                <span className="inline-flex items-center px-3 bg-gray-100 border border-r-0 border-gray-300 rounded-l text-gray-600">
+                <span className="inline-flex items-center px-3 bg-gray-100 border border-r-0 border-gray-300 rounded-l text-gray-600 text-sm">
                   🇮🇳 +91
                 </span>
                 <input
@@ -57,7 +62,7 @@ const PopupForm = ({ isOpen, onClose }) => {
               </button>
             </form>
 
-            <p className="text-xs text-gray-500 mt-4">
+            <p className="text-xs text-gray-500 mt-4 text-center md:text-left">
               By submitting this form, you agree to the
               <a href="#" className="underline ml-1">Terms of Use</a> and
               <a href="#" className="underline ml-1">Privacy Policy</a>.
