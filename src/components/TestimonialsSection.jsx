@@ -5,18 +5,18 @@ import t2 from '../assets/t2.mp4';
 
 const testimonials = [
   {
-    name: 'Anurag Singh',
-    course: 'MBA 90 ECTS',
-    university: 'IU Germany',
+    name: 'Rabia Pathan',
+    course: 'MBBS',
+    university: 'Sevastopol State University',
     video: t1,
-    text: 'I always wanted to study abroad so I decided to apply for my Masters program but it did not work out due to budget, proper guidance. One day I saw an ad from upGrad and I immediately...',
+    text: 'I always wanted to study abroad so I decided to apply for my MBBS but it did not work out due to budget, proper guidance. One day I saw an ad from Study Pathways and I immediately...',
   },
   {
-    name: 'Varshitha M',
-    course: 'MS Data Analytics',
-    university: 'Clark University',
+    name: 'Mithoon Singh',
+    course: 'MBBS',
+    university: 'Sevastopol State University',
     video: t2,
-    text: 'I\'m very thrilled to pursue my MS in Data Analytics at Clark University, USA. It was my dream and I was able to fulfill it. I chose this program and got 2 courses waived off...',
+    text: 'I\'m very thrilled to pursue my MBBS  at Sevastopol State University, Russia. It was my dream and I was able to fulfill it. I chose this program and ...',
   },
 ];
 
