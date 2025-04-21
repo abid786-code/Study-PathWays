@@ -87,21 +87,21 @@ import {
   
           {/* Contact Info */}
           <div>
-            <h4 className="text-2xl font-bold mb-4">Gulf Education Tech</h4>
+            <h4 className="text-2xl font-bold mb-4">Study Pathways</h4>
             <div className="text-sm space-y-4">
               <div>
                 <p className="text-gray-400">India:</p>
-                <div className="flex items-center gap-2"><Mail size={16} /> info@gulfeducationtech.com</div>
-                <div className="flex items-center gap-2"><Phone size={16} /> 080 6947 4555</div>
+                <div className="flex items-center gap-2"><Mail size={16} /> studypathways@gmail.com</div>
+                <div className="flex items-center gap-2"><Phone size={16} /> +91 97210 80912</div>
               </div>
               <div>
-                <p className="text-gray-400">International:</p>
+                <p className="text-gray-400">Dubai:</p>
                 <div className="flex items-center gap-2"><Mail size={16} /> global@gulfeducationtech.com</div>
-                <div className="flex items-center gap-2"><Phone size={16} /> +1 512 647 2647</div>
+                <div className="flex items-center gap-2"><Phone size={16} />  +971 56 932 7062</div>
               </div>
               <div>
                 <p className="text-gray-400">Enterprise:</p>
-                <div className="flex items-center gap-2"><Mail size={16} /> business@gulfeducationtech.com</div>
+                <div className="flex items-center gap-2"><Mail size={16} /> studypathways@gmail.com</div>
               </div>
             </div>
   

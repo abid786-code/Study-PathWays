@@ -26,7 +26,7 @@ const Header = () => {
         <div className="hidden md:flex items-center gap-4 text-sm">
           <div className="flex items-center gap-1 text-red-600">
             <Phone size={16} />
-            <span>+91 9721080912 | +91 8382858683</span>
+            <span>+91 97210 80912 | +91 83828 58683</span>
           </div>
         </div>
 
